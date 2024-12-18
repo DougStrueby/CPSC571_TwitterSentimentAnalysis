@@ -1,16 +1,24 @@
-## CPSC571 Twitter Sentiment Analysis
+# CPSC571 Twitter Sentiment Analysis
 
-Group Members: Doug Strueby, Nolan Ruzicki
+## Group Members
+- Doug Strueby  
+- Nolan Ruzicki  
 
-General Description: Conducted a study on the sentiment behind tweets to uncover potential criminals
+## General Description
+This project analyzes the sentiment behind tweets to identify potential criminal behavior.  
 
-Running Instructions
-
-	1. Download zip
-	2. Unzip the folder that contains all the files for our project
-	3. Set working directory to the directory containing csv files (setwd(FILEPATH))
-	4. Open the 2 R files (DataPreprocessing, and 571-Models)
-	5. DataPreprocessing will override csv files in the folder
-	6. Run the R files line by line using "CTRL + ENTER" in the order of DataPreprocessing -> 571-Models
-	7. install.packages will only need to be run once
-	8. For LTSM model an up-to-date version of python is required will prompt with a function to run if it is not found within the system
+## Running Instructions
+1. **Download the project**: Download the ZIP file containing all the project files.  
+2. **Unzip the folder**: Extract the contents of the ZIP file.  
+3. **Set working directory**: Set the working directory to the folder containing the CSV files using `setwd(FILEPATH)`.  
+4. **Open R files**: Open the following R scripts in your R environment:  
+   - `DataPreprocessing.R`  
+   - `571-Models.R`  
+5. **Preprocess data**:  
+   - Run `DataPreprocessing.R` first.  
+   - Note: This script will override the CSV files in the project folder.  
+6. **Run models**: Run the R scripts line by line using `CTRL + ENTER` in the following order:  
+   - `DataPreprocessing.R`  
+   - `571-Models.R`  
+7. **Install required packages**: Run `install.packages` commands as needed. This step is only required once.  
+8. **LTSM model requirements**: For the LSTM model, ensure that an up-to-date version of Python is installed. If Python is not detected, the script will prompt you with a function to run.  
