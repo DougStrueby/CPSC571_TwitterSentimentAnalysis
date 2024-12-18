@@ -1,5 +1,11 @@
-# CPSC571_TwitterSentimentAnalysis
-# Running Instructions
+## CPSC571 Twitter Sentiment Analysis
+
+Group Members: Doug Strueby, Nolan Ruzicki
+
+General Description: Conducted a study on the sentiment behind tweets to uncover potential criminals
+
+Running Instructions
+
 	1. Download zip
 	2. Unzip the folder that contains all the files for our project
 	3. Set working directory to the directory containing csv files (setwd(FILEPATH))
